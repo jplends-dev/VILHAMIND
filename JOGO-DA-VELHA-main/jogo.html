@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Jogo da velha</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="JOGO-DA-VELHA-main/jogo.html">
+              <img src="img/jogo-da-velha-sem-fundo.png" alt="" class="logo">
+            </a>
+            <a href="/index.html" class="nome">VILHAMIND</a>
+        </nav>
+    </header>
+
+    <main class="">
+        <header>
+            <h1 class="nome-do-jogo">Jogo da Velha</h1>
+            
+            <br>
+           
+        </header>
+        <div class="board" id="board">
+            <div class="cell x"></div>
+            <div class="cell o"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </main>
+    <div class="mensagem-de-jogo-final" id="gameEndElement">
+        <div data-game-end-message></div>
+        <button id="restartButton">REINICIAR</button>
+    </div>
+    <script src="jogo.js"></script>
+</body>
+</html>

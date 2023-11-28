@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <script src="5.js" defer></script>
+    <title>VILHAMIND</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="JOGO-DA-VELHA-main/jogo.html">
+              <img src="img/jogo-da-velha-sem-fundo.png" alt="" class="logo">
+            </a>
+            <a href="index.html" class="nome"><h1>VILHAMIND</h1></a>
+        </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Custo de Piso</h1>
+
+        <form id="tileCostForm">
+          <label for="length">Comprimento do Cômodo (metros):</label>
+          <input
+            type="number"
+            class="input"
+            id="length"
+            placeholder="Comprimento"
+          />
+
+          <label for="width">Largura do Cômodo (metros):</label>
+          <input type="number" class="input" id="width" placeholder="Largura" />
+
+          <input
+            type="submit"
+            class="button input"
+            id="submit"
+            value="Calcular"
+          />
+        </form>
+
+        <div class="result"></div>
+      </div>
+    </main>
+  </body>
+</html>

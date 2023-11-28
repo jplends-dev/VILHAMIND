@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+  display: flex;
+  background: #3A2666;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 10vh;
+  height: 10vh;
+  padding: 5%;
+}
+
+.nome{
+  margin-left: 5%;
+}
+  
+  main{
+    background: url(img/fundo.png) no-repeat center center;
+    background-size: cover;
+    height: 100Svh;
+}
